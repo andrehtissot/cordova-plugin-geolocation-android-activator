@@ -1,0 +1,14 @@
+buildscript {
+    repositories {
+        jcenter()
+        mavenLocal()
+    }
+    dependencies {
+    }
+}
+repositories {
+    jcenter()
+}
+dependencies {
+    compile 'com.google.android.gms:play-services-location:10.2.4'
+}

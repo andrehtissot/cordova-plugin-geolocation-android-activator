@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-plugin-geolocation-android-activator"
+        version="1.0.0">
+
+    <name>Location Activation Cordova Plugin</name>
+
+    <description>Simple method to activate gps, not just asking permission.</description>
+
+    <repo>https://github.com/andrehtissot/cordova-plugin-geolocation-android-activator.git</repo>
+
+    <keywords>location, geolocation, gps, cordova, android, google api</keywords>
+
+    <license>MIT</license>
+
+    <author>André Augusto Tissot</author>
+
+    <js-module src="www/geolocation-activator.js" name="geolocation-activator">
+        <clobbers target="navigator.geolocation.activator" />
+    </js-module>
+    <!-- cordova -->
+    <engines>
+        <engine name="cordova-android" version=">=4.0.0" />
+    </engines>
+
+    <!-- android -->
+    <platform name="android">
+        <framework src="src/android/LocationActivation.gradle" custom="true" type="gradleReference"/>
+        <config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+            <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+            <uses-feature android:name="android.hardware.location.gps" />
+        </config-file>
+        <config-file target="res/xml/config.xml" parent="/*">
+          <feature name="LocationActivation">
+            <param name="android-package" value="com.andretissot.locationactivator.LocationActivation" />
+          </feature>
+        </config-file>
+        <source-file src="src/android/LocationActivation.java"
+            target-dir="src/com/andretissot/locationactivator" />
+        <source-file src="src/android/LocationActivator.java"
+            target-dir="src/com/andretissot/locationactivator" />
+    </platform>
+</plugin>

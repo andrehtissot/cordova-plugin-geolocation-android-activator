@@ -1,0 +1,32 @@
+{
+  "name": "cordova-plugin-geolocation-android-activator",
+  "cordova_name": "Location Activation Cordova Plugin",
+  "version": "1.0.0",
+  "description": "Simple method to activate gps, not just asking permission.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrehtissot/cordova-plugin-geolocation-android-activator"
+  },
+  "keywords": [
+    "location",
+    "geolocation",
+    "gps",
+    "google api",
+    "cordova",
+    "android",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "platforms": [
+    "android"
+  ],
+  "engines": [],
+  "dependencies": {
+  },
+  "author": "André Augusto Tissot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrehtissot/cordova-plugin-geolocation-android-activator/issues"
+  },
+  "homepage": "https://github.com/andrehtissot/cordova-plugin-geolocation-android-activator/blob/master/README.md"
+}
