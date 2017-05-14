@@ -5,9 +5,9 @@
         id="cordova-plugin-geolocation-android-activator"
         version="1.0.0">
 
-    <name>Location Activation Cordova Plugin</name>
+    <name>Location Activator Cordova Plugin</name>
 
-    <description>Simple method to activate gps, not just asking permission.</description>
+    <description>Simple method to activate gps if it is turned off.</description>
 
     <repo>https://github.com/andrehtissot/cordova-plugin-geolocation-android-activator.git</repo>
 
