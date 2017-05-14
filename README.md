@@ -10,7 +10,7 @@ navigator.geolocation.activator.askActivation();
 
 If the GPS is not activated and the app has location permission, the user will be asked to accept it's activation, like the images below.
  
- #### Initialy as:
+#### Initialy as:
 ![closed GPS activation modal](https://cloud.githubusercontent.com/assets/1174345/26030372/4abeff80-3828-11e7-8b1a-f415551b263e.png)
 
 #### When "∨" is clicked:
