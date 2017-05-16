@@ -1,7 +1,7 @@
 {
   "name": "cordova-plugin-geolocation-android-activator",
   "cordova_name": "Location Activator Cordova Plugin",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Simple method to activate gps if it is turned off.",
   "repository": {
     "type": "git",

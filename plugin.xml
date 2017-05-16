@@ -3,7 +3,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="cordova-plugin-geolocation-android-activator"
-        version="1.0.1">
+        version="1.1.0">
 
     <name>Location Activator Cordova Plugin</name>
 
@@ -41,6 +41,8 @@
         <source-file src="src/android/LocationActivation.java"
             target-dir="src/com/andretissot/locationactivator" />
         <source-file src="src/android/LocationActivator.java"
+            target-dir="src/com/andretissot/locationactivator" />
+        <source-file src="src/android/ResultHelper.java"
             target-dir="src/com/andretissot/locationactivator" />
     </platform>
 </plugin>
