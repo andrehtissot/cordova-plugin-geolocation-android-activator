@@ -25,6 +25,8 @@
         <engine name="cordova-android" version=">=4.0.0" />
     </engines>
 
+    <dependency id="cordova-plugin-compat" version="^1.0.0" />
+
     <!-- android -->
     <platform name="android">
         <framework src="src/android/LocationActivation.gradle" custom="true" type="gradleReference"/>
