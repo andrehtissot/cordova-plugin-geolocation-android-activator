@@ -1,4 +1,8 @@
 # cordova-plugin-geolocation-android-activator
+[![npm](https://img.shields.io/npm/dt/cordova-plugin-geolocation-android-activator.svg)](https://www.npmjs.com/package/cordova-plugin-geolocation-android-activator)
+[![npm](https://img.shields.io/npm/v/cordova-plugin-geolocation-android-activator.svg)](https://www.npmjs.com/package/cordova-plugin-geolocation-android-activator)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Simple complement for geolocation plugins, like apache's cordova-plugin-geolocation, that asks the user to give permission to access geolocation and to activate the GPS.
 
 ## To use
